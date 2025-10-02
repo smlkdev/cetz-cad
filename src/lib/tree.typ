@@ -141,7 +141,7 @@
         })
 
         if bounds != none {
-          if direction in ("north", "south") {
+          if direction in ("up", "down") {
             (node.width, node.height, _) = aabb.size(bounds)
           } else {
             (node.height, node.width, _) = aabb.size(bounds)
